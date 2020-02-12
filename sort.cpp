@@ -62,7 +62,7 @@ int main(){
       string str;
 
       /*Get each indiviual's first and last names. Assumptions:
-      	  -are names are given in a file formatted as first name then last name
+      	  -names are given in a file formatted as first name then last name
 	  -first and last names are seperated by a space
 	  -each individual is on a seperate line*/
 
