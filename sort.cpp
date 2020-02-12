@@ -13,18 +13,16 @@ struct person{
 /* Overload "<" operator to compare names alphatebically by last name.
  * If last names match, then first names are compared*/
 bool operator < (const struct person &p1, const struct person &p2){
-   if(p1.last_name == p2.last_name){
+
+   if(p1.last_name < p2.last_name){
+      return true;
+   }
+   else if(p1.last_name == p2.last_name){
       if(p1.first_name < p2.first_name){
 	 return true;
       }
    }
-   else if(p1.last_name < p2.last_name){
-      return true;
-   }
-
-   else{
       return false;
-   }
 }
 
 
@@ -90,7 +88,5 @@ int main(){
 
       cout << endl <<  "File sucessfully sorted. Sorted names file is located at sorted_names.txt" << endl;
    }
-
-
    return 0;
 }
