@@ -1,6 +1,6 @@
 # NameSort
 
-Program to sort names alphabetically by last name. Input files must be formatted as follows:
+Program to sort names alphabetically by last name. Sorted names will be outputted into file by last name then first name. Input files must be formatted as follows:
 
  -Names must given in a text file formatted as first name then last name
  
