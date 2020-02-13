@@ -63,7 +63,7 @@ int main(){
 	 std::string fn,ln;
 	 ss >> fn; //get first name
 	 ss >> ln; //get last name
-	 struct person p = {fn,ln}; //create person object
+	 struct person p = {fn,ln}; //create person struct
 	 people.push_back(p); 
       }
 
